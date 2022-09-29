@@ -1,0 +1,14 @@
+27-09-2022 08:14:58 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:14:58 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:14:58 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:14:58 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:20:50 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:20:50 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:20:51 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:20:51 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:20:59 - ERROR - 7.5.3 - 32.4 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:20:59 - ERROR - 7.5.3 - 32.4 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:21:24 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:21:24 - ERROR - 7.5.3 - 32.9 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
+27-09-2022 08:21:25 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails/blocks (1) - 
+27-09-2022 08:21:25 - ERROR - 7.5.3 - 27.0 MB/512 MB - admin > Missing block.php file in /Applications/XAMPP/xamppfiles/htdocs/swazei/WordPress/wp-content/plugins/newsletter/emails (1) - 
