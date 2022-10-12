@@ -1387,7 +1387,7 @@ button.toggle {
 .color-accent,
 .color-accent-hover:focus,
 .color-accent-hover:hover {
-	color: #cd2653;
+	color: #000000 !important;
 }
 
 /* BACKGROUND COLOR */
@@ -1395,7 +1395,7 @@ button.toggle {
 .bg-accent,
 .bg-accent-hover:focus,
 .bg-accent-hover:hover {
-	background-color: #cd2653;
+	background-color: #000000 !important;
 }
 
 /* BORDER COLOR */
@@ -1403,14 +1403,14 @@ button.toggle {
 .border-color-accent,
 .border-color-accent-hover:focus,
 .border-color-accent-hover:hover {
-	border-color: #cd2653;
+	border-color: #000000 !important;
 }
 
 /* FILL COLOR */
 
 .fill-children-accent,
 .fill-children-accent * {
-	fill: #cd2653;
+	fill: #000000 !important;
 }
 
 .fill-children-current-color,
@@ -1959,7 +1959,11 @@ ul.primary-menu {
 
 /* SUB MENU */
 body:not(.overlay-header) .primary-menu ul{
-	background:transparent !important;
+	background:black !important;
+	color:white !important;
+}
+body:not(.overlay-header) .primary-menu ul li a{
+	color:white !important;
 }
 .primary-menu ul {
 	background: rgb(255, 255, 255);
@@ -2211,7 +2215,10 @@ button.close-nav-toggle .toggle-text {
 	justify-content: space-between;
 	width: 100%;
 }
-
+.sub-menu{
+	background-color: black !important; 
+	color:white !important;
+}
 .modal-menu a {
 	display: block;
 	padding: 2rem 2.5rem;
@@ -2340,7 +2347,9 @@ button.sub-menu-toggle.active svg {
 	display: block;
 }
 
-
+.mobile-menu ul li div a{
+	color: black !important;
+}
 /* Menu Bottom ------------------------------- */
 
 .menu-bottom {
@@ -4876,6 +4885,33 @@ a.to-the-top > * {
 		margin: 3em 0 0 0;
 	}
 }
+@media (min-width:290px) and (max-width:320px){
+	.portfolio-card-div div{
+		margin:2em 0 0 0 !important;
+		width: 100% !important;
+		min-height: 15vh !important;
+	}
+	.portfolio-card-div2 div{
+		margin: 0 !important;
+		width: 100% !important;
+		min-height: 22vh !important;
+	}
+	.portfolio-card-div3{
+		column-gap: 1em;
+	}
+	.portfolio-card-div3 div:nth-child(1) div, .portfolio-card-div3 div:nth-child(2) div{
+		min-height: 35vh !important;
+	}
+	.portfolio-card-div4 div{
+		min-height: 22vh !important;
+	}
+	.portfolio-card-div6 div:nth-child(2) div{
+		min-height: 31vh !important;
+	}
+	.portfolio-card-div6 div:nth-child(1) div{
+		min-height: 33vh !important;
+	}
+}
 @media (max-width:425px){
 	
 	.top-icon{
@@ -4963,8 +4999,113 @@ a.to-the-top > * {
 	.newsletter-form-btn{
 		top:-3.5em !important; 
 	}
+	.testimonial-card-home{
+		padding: 2em !important;
+	}
+	.testimonial-card-home p:nth-child(1){
+		font-size: 0.86em !important;
+	}
+	.testimonial-card-home p:nth-child(2){
+		font-size: 0.55em;
+	}
+	.why-choose-title h2{ 
+		font-size: 1.4em !important;
+	}
+	.icon-div div {
+		width:2.5em !important;
+		margin:0 !important;
+	}
+	.custom-p-home1{
+		font-size: 0.7em;
+		margin: 0.5em 0;
+	}
+	
+	.contact-us-div-home h2{
+		margin: 0.5em 0 0.5em 1.2em !important;
+		font-size: 1.7em;
+	}
+	.contact-us-btn button{
+		width: auto !important;
+		min-height: 0 !important;
+		font-size: 0.7em !important;
+	}
+	.contact-home-div div p:nth-child(2){
+		
+		font-size: 0.7em;
+	}
+	.our-story-div h2{
+		font-size: 1.8em;
+	}
+	.inside-story-div p:nth-child(1){
+		font-size: 0.7em;
+	}
+	.inside-story-div p:nth-child(2){
+		font-size: 0.9em;
+	}
+	.inside-story-div p:nth-child(3){
+		font-size: 0.6em;
+	}
+	.custom-top-margin{
+		margin-top: 10% !important;
+	}
+	.custom-p-home p{
+		font-size: 1em !important;
+	}
+	.font-gordita-thin p{
+		font-size: 0.9em !important;
+	}
+	.btn-div1{
+		width:50% !important;
+	}
+	.gradient-btn{
+		min-height: 0 !important;
+		font-size: 0.8em !important;
+		width: 50% !important;
+	}
+	.link-div a{
+		font-size: 0.7em !important;
+		white-space: nowrap;
+	}
+	.custom-rocket-image-alignment{
+		display: none !important;
+	}
+	.title-div h1{
+		font-size: 2.5em !important;
+	}
+	.service-div span{
+		min-height: 7.5vh !important;
+		border-radius: 1.9em !important;
+	}
+	.btn-div2 button{
+		width: auto !important;
+	}
+	.portfolio-card-div div{
+		margin:2em 0 0 0 !important;
+		width: 100% !important;
+		min-height: 22vh !important;
+	}
+	.portfolio-card-div2 div{
+		margin: 0 !important;
+		width: 100% !important;
+		min-height: 22vh !important;
+	}
+	.portfolio-card-div3{
+		column-gap: 1em;
+	}
+	.portfolio-card-div3 div:nth-child(1) div, .portfolio-card-div3 div:nth-child(2) div{
+		min-height: 35vh !important;
+	}
+	.portfolio-card-div4 div{
+		min-height: 22vh !important;
+	}
+	.portfolio-card-div6 div:nth-child(2) div{
+		min-height: 31vh !important;
+	}
+	.portfolio-card-div6 div:nth-child(1) div{
+		min-height: 33vh !important;
+	}
 }
-@media (max-width:768px){
+@media (min-width:700px) and (max-width:768px){
 	
 	.page-title h1{
 		text-align: center !important;
@@ -5020,7 +5161,128 @@ a.to-the-top > * {
 	.title-div h1{
 		font-size: 2em !important;
 	}
-	
+	.custom-top-margin{
+		margin-top: 10% !important;
+	}
+	.custom-p-home p{
+		font-size: 1em !important;
+	}
+	.font-gordita-thin p{
+		font-size: 0.9em !important;
+	}
+	.gradient-btn{
+		min-height: 0 !important;
+		font-size: 0.8em !important;
+	}
+	.link-div a{
+		font-size: 0.7em !important;
+		white-space: nowrap;
+	}
+	.title-div h1{
+		font-size: 1.5em !important;
+	}
+	.title-p p{
+		font-size: 0.8em !important;
+	}
+	.btn-div2 button{
+		width: auto !important;
+	}
+	.service-title-h3 text{
+		font-size: 0.5em !important;
+		letter-spacing: 0.4px;
+		line-height: 1px;
+	}
+	.service-conent-div div p{
+		font-size: 0.7em;
+	}
+	.case-study-card-div div p:nth-child(2){
+		font-size: 0.6em !important;
+	}
+	.case-study-card-div div p:nth-child(4){
+		font-size: 0.7em !important;
+	}
+	.bulb-content-div h1{
+		font-size: 2em;
+	}
+	.bulb-content-div p{
+		font-size: 0.7em !important;
+	}
+	.custom-a{
+		font-size: 0.6em !important;
+	}
+	.clients-says-div h1{
+		font-size: 2em !important;
+	}
+	.testimonial-card-home{
+		padding: 0.5em !important;
+	}
+	.testimonial-card-home p:nth-child(1){
+		font-size: 0.6em !important;
+	}
+	.testimonial-card-home p:nth-child(2){
+		font-size: 0.55em;
+	}
+	.why-choose-title h2{ 
+		font-size: 1.4em !important;
+	}
+	.icon-div div {
+		width:2.5em !important;
+	}
+	.custom-p-home1{
+		font-size: 0.7em;
+		margin: 0.5em 0;
+	}
+	.contact-us-div-home{
+		justify-content: flex-start !important;
+	}
+	.contact-us-div-home h2{
+		margin: 0.5em 0 0.5em 1.2em !important;
+		font-size: 1.7em;
+	}
+	.contact-us-btn button{
+		width: auto !important;
+		min-height: 0 !important;
+		font-size: 0.7em !important;
+	}
+	.contact-home-div div p:nth-child(2){
+		
+		font-size: 0.7em;
+	}
+	.our-story-div h2{
+		font-size: 1.8em;
+	}
+	.inside-story-div p:nth-child(1){
+		font-size: 0.7em;
+	}
+	.inside-story-div p:nth-child(2){
+		font-size: 0.9em;
+	}
+	.inside-story-div p:nth-child(3){
+		font-size: 0.6em;
+	}
+
+	.portfolio-card-div div{
+		margin:2em 0 0 0 !important;
+		width: 100% !important;
+		min-height: 35vh !important;
+	}
+	.portfolio-card-div2 div{
+		margin: 0 !important;
+		width: 100% !important;
+		min-height: 35vh !important;
+	}
+	.portfolio-card-div3{
+		column-gap: 1em;
+	}
+	.portfolio-card-div3 div:nth-child(1) div, .portfolio-card-div3 div:nth-child(2) div{
+		min-height: 50vh !important;
+	}
+	.portfolio-card-div4 div{
+		min-height: 35vh !important;
+	}
+	.portfolio-card-div6 div:nth-child(2) div{
+		min-height: 47vh !important;
+	}
 }
 @media ( min-width: 480px ) {
 
@@ -7837,4 +8099,99 @@ margin:1em 0 1.2em 0;
 .service-page-text p{
 	padding:1em;
 	font-family: var(--font-gordita-light);
+}
+.portfolio-card-div{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.portfolio-card-div div {
+	
+	background: url(./assets/images/portfolio1.svg) no-repeat;
+  background-size: contain;
+	min-height: 40vh;
+	width: 100% !important;
+	margin: 1em 0;
+	
+
+}
+.portfolio-card-div2{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.portfolio-card-div2 div {
+	
+	background: url(./assets/images/portfolio2.svg) no-repeat;
+  background-size: contain;
+	min-height: 40vh;
+	width: 100% !important;
+	margin: 1em 0;
+	
+}
+.portfolio-card-div3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	width: 100%;
+}
+
+.portfolio-card-div3 div:nth-child(1) div{
+	
+	background: url(./assets/images/portfolio3.svg) no-repeat;
+  background-size: contain;
+	min-height: 60vh;
+	width: 100% !important;
+}
+.portfolio-card-div3 div:nth-child(2) div {
+	
+	background: url(./assets/images/portfolio4.svg) no-repeat;
+  background-size: contain;
+	min-height: 60vh;
+	width: 90% !important;
+}
+.portfolio-card-div4{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.portfolio-card-div4 div {
+	
+	background: url(./assets/images/portfolio5.svg) no-repeat;
+  background-size: contain;
+	min-height: 40vh;
+	width: 100% !important;
+	margin: 1em 0;
+	object-fit: cover;
+	
+}
+.portfolio-card-div6{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	width: 100%;
+}
+
+.portfolio-card-div6 div:nth-child(1) div{
+	
+	background: url(./assets/images/portfolio6.svg) no-repeat;
+  background-size: contain;
+	min-height: 60vh;
+	width: 90% !important;
+}
+.portfolio-card-div6 div:nth-child(2) div {
+	
+	background: url(./assets/images/portfolio7.svg) no-repeat;
+  background-size: contain;
+	min-height: 60vh;
+	width: 90% !important;
 }
