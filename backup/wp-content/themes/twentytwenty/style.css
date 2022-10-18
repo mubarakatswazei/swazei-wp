@@ -5211,7 +5211,7 @@ a.to-the-top > * {
 		font-size: 0.6em !important;
 	}
 	.clients-says-div h1{
-		font-size: 2em !important;
+		font-size: 1.8em !important;
 	}
 	.testimonial-card-home{
 		padding: 0.5em !important;
@@ -7226,6 +7226,7 @@ a.to-the-top > * {
    }
    .service-conent-div div h3{
 	font-size: 1em !important;
+	
    }
    .service-conent-div div p{
 	font-size: 0.8em;
@@ -7478,6 +7479,7 @@ a.to-the-top > * {
 }
 .service-conent-div div h3{
 	margin:0.5em 0;
+	font-size: 1.3em;
 }
 .service-title-h3{
   font-family: var(--font-recoleta-medium) !important;
@@ -7591,6 +7593,7 @@ a.to-the-top > * {
 }
 .bulb-content-div h1{
 	font-family: var(--font-recoleta-regular) !important;
+	font-size: 2.9em;
 	
 }
 .bulb-content-div p{
@@ -7637,6 +7640,7 @@ a.to-the-top > * {
 	text-align: center;
 	letter-spacing: 1px;
 	font-family: var(--font-recoleta-regular);
+	font-size: 2.9em;
 }
 .testimonial-card-home{
 	min-height: 25vh;
@@ -7790,6 +7794,7 @@ a.to-the-top > * {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	min-height: 36vh;
 	
 }
 .inside-story-div p:nth-child(1){
@@ -7800,6 +7805,7 @@ a.to-the-top > * {
 .inside-story-div p:nth-child(2){
 	text-align: left;
 	font-family: var(--font-recoleta-medium);
+	margin: auto 0;
 }
 .inside-story-div p:nth-child(3) a{
 	color:black;
@@ -7813,6 +7819,7 @@ a.to-the-top > * {
 	font-family: var(--font-recoleta-regular);
 	letter-spacing: 1px;
 	width:100%;
+	font-size: 2.9em;
 }
 .title-p{
 	font-family: var(--font-gordita-light);
